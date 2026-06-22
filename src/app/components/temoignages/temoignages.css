@@ -1,0 +1,17 @@
+.testimonial-card {
+    border-radius: 10px;
+    color: white;
+    height: 100%;
+}
+
+.testimonial-text {
+    font-style: italic;
+}
+
+.testimonials-section {
+    background-color: #2D4A3E;
+}
+
+.stars {
+    font-size: 1.2rem;
+}
