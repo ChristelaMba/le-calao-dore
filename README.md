@@ -1,3 +1,5 @@
+<img width="249" height="562" alt="capture-mobile" src="https://github.com/user-attachments/assets/15224480-309f-4f4e-be59-a1ba79862e20" />
+<img width="1366" height="647" alt="capture-desktop" src="https://github.com/user-attachments/assets/d335856d-45fa-41c7-b437-5a4116b8edfa" />
 # LeCalaoDore
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.1.
