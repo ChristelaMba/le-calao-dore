@@ -49,11 +49,23 @@ nav {
         display: flex;
     }
 
+    header {
+        flex-wrap: wrap;
+    }
+
     nav {
         display: none;
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
     }
 
     nav.open {
         display: flex;
+    }
+
+    nav a {
+        padding: 10px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
     }
 }
