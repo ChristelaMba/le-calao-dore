@@ -1,7 +1,11 @@
-<img width="249" height="562" alt="capture-mobile" src="https://github.com/user-attachments/assets/d518cc4f-8165-4bab-891c-f9c6fe39c117" />
-<img width="1366" height="647" alt="capture-desktop" src="https://github.com/user-attachments/assets/6c97e2e3-0aea-4a04-aac6-16c0a04d5760" />
-<img width="249" height="562" alt="capture-mobile" src="https://github.com/user-attachments/assets/15224480-309f-4f4e-be59-a1ba79862e20" />
-<img width="1366" height="647" alt="capture-desktop" src="https://github.com/user-attachments/assets/d335856d-45fa-41c7-b437-5a4116b8edfa" />
+<img width="896" height="452" alt="desktop1" src="https://github.com/user-attachments/assets/b99e4aa0-529e-45bb-9c76-b70c9253ad30" />
+<img width="900" height="558" alt="desktop2" src="https://github.com/user-attachments/assets/4db0a3b2-dfcd-4eed-8692-805e391b00d0" />
+<img width="902" height="276" alt="desktop3" src="https://github.com/user-attachments/assets/70a16afe-a575-4445-a0f4-e8346e7564eb" />
+<img width="898" height="446" alt="desktop4" src="https://github.com/user-attachments/assets/c8db5e7b-1e78-4252-b705-281cdba65bc7" />
+
+
+
+
 # LeCalaoDore
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.1.
