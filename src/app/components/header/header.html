@@ -1,14 +1,24 @@
 <header>
   <div class="logo">Le Calao Doré</div>
 
-  <button class="burger" (click)="toggleMenu()">☰</button>
+  <!-- <button class="burger" (click)="toggleMenu()">☰</button> -->
+  <button class="burger"
+    [class.is-open]="isMenuOpen"
+    (click)="toggleMenu()"
+    [attr.aria-expanded]= "isMenuOpen"
+    aria-label="Ouvrir le menu de navigation">
+    <span></span>  
+    <span></span>  
+    <span></span>  
+  </button>
 
   <nav [class.open]="isMenuOpen">
-    @for (link of links; track link) {
-      <a [class.active]="activeLink === link"
-         (click)="setActive(link)">
-        {{ link }}
+    @for (link of links; track link.href) {
+      <a [class.active]="activeLink === link.label"
+         [href]="link.href"
+         (click)="setActive(link.label)">
+        {{ link.label }}
       </a>
     }
-  </nav>
+  </nav> 
 </header>

@@ -1,15 +1,27 @@
 import { Component } from '@angular/core';
 
+interface NavLink {
+  label: string;
+  href: string;
+}
+
 @Component({
   selector: 'app-header',
+  standalone: true,
   imports: [],
   templateUrl: './header.html',
-  styleUrl: './header.css',
+  styleUrls: ['./header.css'],
 })
 export class Header {
   isMenuOpen = false;
   activeLink = 'Accueil';
-  links = ['Accueil', 'Menu', 'Témoignages', 'Horaires', 'Contact'];
+  links: NavLink[] = [
+    { label: 'Accueil', href: '#accueil' },
+    { label: 'Menu', href: '#menu' },
+    { label: 'Témoignages', href: '#temoignages' },
+    { label: 'Horaires', href: '#horaires' },
+    { label: 'Contact', href: '#contact' },
+  ];
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
