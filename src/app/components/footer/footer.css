@@ -1,0 +1,22 @@
+.footer {
+    background-color: #2D4A3E;
+    color: white;
+}
+
+.footer a {
+    color: #E9B824;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+}
+
+.footer hr {
+    border-color: rgba(255, 255, 255, 0.2);
+}
