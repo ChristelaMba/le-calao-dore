@@ -1,0 +1,14 @@
+<header>
+  <div class="logo">Le Calao Doré</div>
+
+  <button class="burger" (click)="toggleMenu()">☰</button>
+
+  <nav [class.open]="isMenuOpen">
+    @for (link of links; track link) {
+      <a [class.active]="activeLink === link"
+         (click)="setActive(link)">
+        {{ link }}
+      </a>
+    }
+  </nav>
+</header>
